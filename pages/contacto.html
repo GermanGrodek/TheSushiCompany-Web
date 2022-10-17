@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon"
+      alt="Icono Sushi"
+    />
+    <script
+      src="https://kit.fontawesome.com/4675eea30f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- LOGO CON IMAGEN Y TEXTO -->
+      <div class="header__logo">
+        <img
+          src="../assets/img/logo.png"
+          alt="logo"
+          class="header__logo__img"
+        />
+        <p class="header__nombre">The Sushi Company</p>
+      </div>
+      <!-- MENU DE NAVEGACIÓN -->
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__li">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="header__nav__list__li">
+            <a href="locales.html">Locales</a>
+          </li>
+          <li class="header__nav__list__li">
+            <a href="contacto.html">Contacto</a>
+          </li>
+          <li class="header__nav__list__li">
+            <a href="productos.html">Productos</a>
+          </li>
+          <li class="header__nav__list__li">
+            <a href="historia.html">Historia</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- TITUTLO DE REGISTRO -->
+    <div class="registro">
+      <h1 id="registro__h1">¡Contactate con nosotros!</h1>
+      <h4 id="registro__h4">
+        Completa los datos solicitados para que podamos contactarte y recibas el
+        Newsletter
+      </h4>
+    </div>
+    <!-- FORMULARIO DE REGISTRO NEWSLETTER -->
+    <section class="form-register">
+      <h4>Formulario registro</h4>
+      <form>
+        <label class="label__edit" for="nombre">Nombre:</label>
+        <input class="controls" type="text" name="nombre" id="nombre" />
+        <label class="label__edit" for="apellido">Apellido:</label>
+        <input class="controls" type="text" name="apellido" id="apellido" />
+        <label class="label__edit" for="correo">Correo:</label>
+        <input class="controls" type="email" name="correo" id="correo" />
+        <label class="label__edit" for="estado-civil">Estado civil:</label>
+        <select class="controls" name="estado-civil" id="estado-civil">
+          <option value="soltero">Soltero/a</option>
+          <option value="casado">Casado/a</option>
+        </select>
+        <label id="label__checkbox" for="newsletter"
+          >¿Deseas recibir el Newsletter?</label
+        >
+        <input type="checkbox" name="newsletter" id="newsletter" />
+        <textarea
+          class="controls"
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Comentarios"
+        ></textarea>
+        <input class="botons" type="reset" value="Borrar formulario" />
+        <input class="botons" type="submit" value="Enviar formulario" />
+      </form>
+    </section>
+    <!-- SECCION CONTACTANOS -->
+    <section class="contacto">
+      <div class="contacto__div">
+        <p id="contacto__div__celular">
+          <i class="fa-solid fa-phone"></i> Llamanos a nuestro número: +54 911
+          1111-1111
+        </p>
+        <p id="contacto__div__correo">
+          <i class="fa-solid fa-envelope"></i> Contáctanos a nuestro correo:
+          TheSushyCompany@Sushi.com
+        </p>
+        <p id="contacto__div__local">
+          <i class="fa-solid fa-house"></i> Búscanos en nuestros
+          <a href="locales.html">Locales</a>
+        </p>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <nav class="footer__redesSociales">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" class="footer__facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" class="footer__twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" class="footer__instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
+    </footer>
+  </body>
+</html>

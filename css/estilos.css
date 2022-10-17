@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  position: relative;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+/* HEADER CSS */
+
+.header {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo{
+display: flex;
+margin: auto 0;
+}
+
+.header__logo__img {
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30%;
+}
+
+.header__nombre {
+  margin: 5px 0 0 10px;
+  color: white;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px #6560eb;
+  font-size: 20px;
+}
+
+.header__nav {
+  margin: auto 0;
+}
+
+.header__nav__list__li {
+  margin: 0 15px 0 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.header__nav__list__li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+.header__nav__list__li a:hover {
+  color: #6560eb;
+  text-shadow: 0 0 2px;
+  transition: 0.2s;
+}
+
+/* INICO INDEX CSS */
+
+.sectionDemo__article {
+  margin: 20px auto;
+  background-color: #ffff;
+  max-width: 1000px;
+  border: 1px solid rgb(189, 189, 189);
+  box-shadow: 0 0 12px;
+  border-radius: 1em;
+}
+
+.sectionDemo__article__fotos {
+  margin-left: 12px;
+}
+
+.sectionDemo img {
+  height: 300px;
+  width: 480px;
+  margin-right: 5px;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 1em;
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  padding: 10px;
+  text-shadow: 2px 0px 1px #6560eb;
+}
+
+.sectionDemo__article__text__descripcion {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 21px;
+}
+
+.presentacion {
+  margin: 0 auto 20px auto;
+  max-width: 800px;
+  height: 500px;
+  border: 1px solid rgb(189, 189, 189);
+  box-shadow: 0 0 12px;
+  border-radius: 1em;
+}
+
+.presentacion iframe {
+  width: 760px;
+  height: 420px;
+  margin-left: 20px;
+}
+
+/* LOCALES CSS */
+
+#locales__titulo__div__h1 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 2px 0px 1px #6560eb;
+}
+
+.local__section {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 600px 600px;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+.local {
+  border: 1px solid rgb(189, 189, 189);
+  box-shadow: 0 0 12px;
+  border-radius: 1em;
+}
+
+.local__card__header h4 {
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.local__card__ubicacion {
+  border-top: 1px solid rgb(189, 189, 189);
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+iframe {
+  width: 580px;
+  margin-left: 10px;
+}
+
+.local__card__footer {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.local__card__footer p {
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.local__card__footer i {
+  margin-right: 10px;
+}
+
+/* CONTACTOS CSS*/
+
+.registro {
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.registro h1 {
+  text-shadow: 2px 0px 1px #6560eb;
+  margin-bottom: 10px;
+}
+
+.form-register {
+  width: 600px;
+  background-color: #19212c;
+  padding: 30px;
+  margin: 30px auto 0 auto;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.controls {
+  color: white;
+  width: 100%;
+  background-color: #35243c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #35203b;
+  font-size: 18px;
+}
+
+.form-register .label__edit {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#textarea {
+  color: white;
+}
+
+#label__checkbox {
+  font-size: 18px;
+}
+
+.form-register select {
+  color: white;
+}
+
+.form-register .botons {
+  width: 100%;
+  padding: 12px;
+  background: #35243c;
+  border: none;
+  color: white;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.contacto {
+  width: 800px;
+  padding: 10px;
+  margin: 30px auto;
+  font-size: 25px;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 1em;
+  background-image: url(..//assets/img/cover-sushi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contacto p {
+  padding: 8px;
+}
+
+.contacto i {
+  margin-right: 10px;
+}
+
+.contacto a {
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* PRODUCTOS CSS */
+
+.productos {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.productos h1 {
+  text-shadow: 2px 0px 1px #6560eb;
+  margin-bottom: 10px;
+}
+
+.section__table {
+  font-size: 20px;
+  margin: 20px auto 10px auto;
+  background-color: #19212c;
+  color: white;
+  border: 2px solid #633b6e;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.section__table th {
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 0 5px rgb(181, 40, 209);
+  font-weight: 500;
+  border-left: none;
+  border-right: none;
+}
+
+.section__table td {
+  padding: 20px;
+  list-style: none;
+  font-weight: lighter;
+  border-left: none;
+  border-right: none;
+}
+
+.section__table td li {
+  list-style: none;
+}
+
+.td1 {
+  text-align: center;
+}
+
+.tr__hover:hover {
+  background-color: #35243c;
+}
+
+/* HISTORIA CSS */
+
+.historia {
+  margin-top: 20px;
+}
+
+.historia__img img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1200px;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 1em;
+}
+
+.historia__titulo {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.historia__titulo h1 {
+  text-shadow: 2px 0px 1px #6560eb;
+  margin-bottom: 10px;
+}
+
+/* FOOTER CSS */
+
+.footer {
+  background-color: #000000;
+  padding-top: 5px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  padding-right: 10px;
+  margin: auto 0;
+}
+
+.footer__redesSociales {
+  margin: auto 0;
+}
+
+.footer__redesSociales ul {
+  list-style: none;
+  padding-left: 10px
+}
+
+.footer__redesSociales li {
+  display: inline-block;
+}
+
+.footer__redesSociales a i {
+  letter-spacing: 15px;
+  font-size: 25px;
+  color: white;
+  font-weight: 100;
+  margin-left: 5px;
+}
+
+.footer__redesSociales a i:hover {
+  color: #6560eb;
+  text-shadow: 0 0 1px;
+  transition: 0.3s;
+}
