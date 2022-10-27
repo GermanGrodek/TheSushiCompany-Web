@@ -163,7 +163,8 @@ body {
   .nav__menu_list li {
     display: flex;
     justify-content: center;
-    margin-top: 4em;
+    margin-top: 6vh;
+    font-size: 4vh;
   }
 
   .nav__input:checked+.nav__menu {
