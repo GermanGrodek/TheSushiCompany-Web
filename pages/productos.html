@@ -1,182 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link
-      rel="shortcut icon"
-      href="../assets/img/favicon.png"
-      type="image/x-icon"
-      alt="Icono Sushi"
-    />
-    <script
-      src="https://kit.fontawesome.com/4675eea30f.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Productos</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-      <!-- LOGO CON IMAGEN Y TEXTO -->
-      <div class="header__logo">
-        <img
-          src="../assets/img/logo.png"
-          alt="logo"
-          class="header__logo__img"
-        />
-        <p class="header__nombre">The Sushi Company</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/productos.css">
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" alt="Icono Sushi" />
+  <script src="https://kit.fontawesome.com/4675eea30f.js" crossorigin="anonymous"></script>
+  <title>Productos</title>
+</head>
+<body>
+  <!-- MENU DE NAVEGACIÓN -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="nav__logo">
+          <img src="../assets/img/logo.png" alt="Logo con forma de Sushi">
+          <p>The Sushi Company</p>
+        </div>
+        <label for="menu" class="nav__label">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu" class="nav__input">
+        <div class="nav__menu">
+          <ul class="nav__menu_list">
+            <li><a href="../index.html" class="nav__menu__list__a">Home</a></li>
+            <li><a href="locales.html" class="nav__menu__list__a">Locales</a></li>
+            <li><a href="contacto.html" class="nav__menu__list__a">Contacto</a></li>
+            <li><a href="productos.html" class="nav__menu__list__a">Productos</a></li>
+            <li><a href="historia.html" class="nav__menu__list__a">Historia</a></li>
+          </ul>
+        </div>
       </div>
-      <!-- MENU DE NAVEGACIÓN -->
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__list__li">
-            <a href="../index.html">Home</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="locales.html">Locales</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="contacto.html">Contacto</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="productos.html">Productos</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="historia.html">Historia</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- TITULO PRODUCTOS -->
-    <div class="productos">
-      <h1>Nuestros productos</h1>
-      <h4>
-        En esta tabla podras observar los ingredientes, elaboración y precio de
-        nuestros productos
-      </h4>
+    </nav>
+  </header>
+  <!-- PRODUCTOS TITULO-->
+  <header class="productos__header">
+    <h1 class="productos__header__titulo">Menú</h1>
+    <h3 class="productos__header__subtitulo">Nuestra variedad de sushis, siguiendo las recetas japonesas al pie de la
+      letra. <br> Una mezcla de sabores deliciosos y unicos.</h3>
+  </header>
+  <!-- PRODUCTOS CARD -->
+  <article class="productos__article">
+    <div class="card__prod" id="card__prod1">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/bsas-roll.png" alt="Sushi Buenos Aires roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Buenos Aires Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con langostino, salmón, palta, queso Philadelphia,
+          cubierto por sésamo y coronado con salsa Buenos Aires</p>
+        <p class="card__prod__aside__precio">$820.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
     </div>
-    <!-- TABLA DE PRODUCTOS -->
-    <section class="section">
-      <table border="1" class="section__table">
-        <tr>
-          <th>Producto</th>
-          <th>Ingredientes</th>
-          <th>Elaboración</th>
-          <th>Precio</th>
-        </tr>
-        <!-- Producto 1 -->
-        <tr class="tr__hover">
-          <td class="td1">Buenos Aires Roll</td>
-          <td>
-            <ul>
-              <li>Langostino</li>
-              <li>Salmón</li>
-              <li>Palta y queso Philadelphia</li>
-              <li>Cubierto por sésamo y coronado con salsa Buenos Aires</li>
-            </ul>
-          </td>
-          <td>
-            <ol>
-              <li>Arroz lavado 5 a 6 veces</li>
-              <li>Cocción al punto justo</li>
-              <li>Reposo de más de 15 minutos</li>
-              <li>Mezclado con "Sushi-Zu"</li>
-              <li>Armado de Sushi por nuestros mejores Chefs</li>
-            </ol>
-          </td>
-          <td>$600</td>
-        </tr>
-        <!-- Producto 2 -->
-        <tr class="tr__hover">
-          <td class="td1">Teriyaki Roll</td>
-          <td>
-            <ul>
-              <li>Langostino</li>
-              <li>Salmón</li>
-              <li>Palta y queso Philadelphia</li>
-              <li>Juliana de lima con salsa Teriyaki</li>
-            </ul>
-          </td>
-          <td>
-            <ol>
-              <li>Arroz lavado 5 a 6 veces</li>
-              <li>Cocción al punto justo</li>
-              <li>Reposo de más de 15 minutos</li>
-              <li>Mezclado con "Sushi-Zu"</li>
-              <li>Armado de Sushi por nuestros mejores Chefs</li>
-            </ol>
-          </td>
-          <td>$750</td>
-        </tr>
-        <!-- Producto 3 -->
-        <tr class="tr__hover">
-          <td class="td1">California Roll</td>
-          <td>
-            <ul>
-              <li>Kanikama</li>
-              <li>Palta y queso Philadelphia</li>
-              <li>Cubierto por sésamo</li>
-            </ul>
-          </td>
-          <td>
-            <ol>
-              <li>Arroz lavado 5 a 6 veces</li>
-              <li>Cocción al punto justo</li>
-              <li>Reposo de más de 15 minutos</li>
-              <li>Mezclado con "Sushi-Zu"</li>
-              <li>Armado de Sushi por nuestros mejores Chefs</li>
-            </ol>
-          </td>
-          <td>$500</td>
-        </tr>
-        <!-- Producto 4 -->
-        <tr class="tr__hover">
-          <td class="td1">Hot Roll</td>
-          <td>
-            <ul>
-              <li>Salmón</li>
-              <li>Palta y queso Philadelphia</li>
-              <li>Cubierto por pan rallado y cocido</li>
-            </ul>
-          </td>
-          <td>
-            <ol>
-              <li>Arroz lavado 5 a 6 veces</li>
-              <li>Cocción al punto justo</li>
-              <li>Reposo de más de 15 minutos</li>
-              <li>Mezclado con "Sushi-Zu"</li>
-              <li>Armado de Sushi por nuestros mejores Chefs</li>
-            </ol>
-          </td>
-          <td>$600</td>
-        </tr>
-      </table>
-    </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <nav class="footer__redesSociales">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/" class="footer__facebook"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="footer__twitter"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" class="footer__instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
-    </footer>
-  </body>
+    <div class="card__prod" id="card__prod2">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/teriyaki-roll.jpg" alt="Sushi Teriyaki roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Teriyaki Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con atún, palta, queso Philadelphia, y con salsa
+          Teriyaki</p>
+        <p class="card__prod__aside__precio">$750.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod3">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/california-roll.png" alt="Sushi California roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">California Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con kanikama, palta, queso Philadelphia, cubierto por
+          sésamo</p>
+        <p class="card__prod__aside__precio">$600.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod4">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/hot-roll.jpg" alt="Sushi Hot roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Hot Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con salmón, palta, queso Philadelphia, cubierto por pan
+          rallado y cocido</p>
+        <p class="card__prod__aside__precio">$800.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod5">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/nigiri-roll.png" alt="Sushi Buenos Aires roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Nigiri Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con salmón, bañado en vinagre de arroz</p>
+        <p class="card__prod__aside__precio">$1000.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod6">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/newyork-roll.jpg" alt="Sushi New York roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">New York Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con camarón cocido, palta, y coronado con salmón rosado
+        </p>
+        <p class="card__prod__aside__precio">$950.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod7">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/sakura-roll.jpg" alt="Sushi Sakura roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Sakura Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con salmón, queso Philadelphia, verdeo cubierto por
+          sésamo</p>
+        <p class="card__prod__aside__precio">$820.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+    <div class="card__prod" id="card__prod8">
+      <div class="card__prod__img">
+        <img src="../assets/img/productos/spicy-roll.jpg" alt="Sushi Buenos Aires roll">
+      </div>
+      <div class="card__prod__aside">
+        <h4 class="card__prod__aside__titulo">Spicy Roll</h4>
+        <p class="card__prod__aside__desc">10 unidades de Sushi con salmón apenado, queso Philadelphia con verdeo,
+          cubierto por sésamo y coronado con lactonesa picante</p>
+        <p class="card__prod__aside__precio">$900.00</p>
+        <a href="https://web.whatsapp.com/" class="card__prod__aside__pedir"><i class="fa-brands fa-whatsapp"></i> Hace tu pedido: +54 911
+          1111-1111</a>
+      </div>
+    </div>
+  </article>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <nav class="footer__redesSociales">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" class="footer__facebook"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" class="footer__twitter"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" class="footer__instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
+  </footer>
+</body>
 </html>

@@ -1,221 +1,189 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link
-      rel="shortcut icon"
-      href="../assets/img/favicon.png"
-      type="image/x-icon"
-      alt="Icono Sushi"
-    />
-    <script
-      src="https://kit.fontawesome.com/4675eea30f.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Locales</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-      <!-- LOGO CON IMAGEN Y TEXTO -->
-      <div class="header__logo">
-        <img
-          src="../assets/img/logo.png"
-          alt="logo"
-          class="header__logo__img"
-        />
-        <p class="header__nombre">The Sushi Company</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/locales.css" />
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" alt="Icono Sushi" />
+  <script src="https://kit.fontawesome.com/4675eea30f.js" crossorigin="anonymous"></script>
+  <title>Locales</title>
+</head>
+<body>
+  <!-- MENU DE NAVEGACIÓN -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="nav__logo">
+          <img src="../assets/img/logo.png" alt="Logo con forma de Sushi" />
+          <p>The Sushi Company</p>
+        </div>
+        <label for="menu" class="nav__label">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu" class="nav__input" />
+        <div class="nav__menu">
+          <ul class="nav__menu_list">
+            <li>
+              <a href="../index.html" class="nav__menu__list__a">Home</a>
+            </li>
+            <li>
+              <a href="locales.html" class="nav__menu__list__a">Locales</a>
+            </li>
+            <li>
+              <a href="contacto.html" class="nav__menu__list__a">Contacto</a>
+            </li>
+            <li>
+              <a href="productos.html" class="nav__menu__list__a">Productos</a>
+            </li>
+            <li>
+              <a href="historia.html" class="nav__menu__list__a">Historia</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- MENU DE NAVEGACIÓN -->
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__list__li">
-            <a href="../index.html">Home</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="locales.html">Locales</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="contacto.html">Contacto</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="productos.html">Productos</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="historia.html">Historia</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="locales__titulo">
-      <div id="locales__titulo__div">
-        <h1 id="locales__titulo__div__h1">
-          ¡Encontranos en nuestras sucursales!
-        </h1>
-      </div>
-    </section>
-    <!-- LOCALES CARD 1 -->
-    <section class="local__section">
-      <div class="local" id="tarjeta1">
-        <article class="local__card">
-          <header class="local__card__header">
-            <h4>Sucursal San Isidro</h4>
-          </header>
-          <div class="local__card__ubicacion">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52645.7343590908!2d-58.57840800016044!3d-34.44304906845135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1885ac898b1%3A0x40633a8bef45748!2sFabric%20Sushi%20(San%20Isidro)!5e0!3m2!1sen!2sar!4v1664722013360!5m2!1sen!2sar"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <footer class="local__card__footer">
-            <p>
-              <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
-              23:00 hs
-            </p>
-            <p>
-              <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
-              y Mastercard
-            </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
-              +54 9 11 1111-111
-            </p>
-          </footer>
-        </article>
-      </div>
-
-      <!-- LOCALES CARD 2 -->
-      <div class="local" id="tarjeta2">
-        <article class="local__card">
-          <header class="local__card__header">
-            <h4>Sucursal Tigre</h4>
-          </header>
-          <div class="local__card__ubicacion">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d44269.542478652394!2d-58.57840798624609!3d-34.443175172355886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca506908450ef%3A0x5953c101d61c3838!2sSushi%20WOM!5e0!3m2!1sen!2sar!4v1664721948112!5m2!1sen!2sar"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <footer class="local__card__footer">
-            <p>
-              <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
-              23:00 hs
-            </p>
-            <p>
-              <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
-              y Mastercard
-            </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
-              +54 9 11 1111-111
-            </p>
-          </footer>
-        </article>
-      </div>
-      <!-- LOCALES CARD 3 -->
-      <div class="local" id="tarjeta3">
-        <article class="local__card">
-          <header class="local__card__header">
-            <h4>Sucursal Vicente Lopez</h4>
-          </header>
-          <div class="local__card__ubicacion">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.391454957704!2d-58.48009526871033!3d-34.51830899805109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14e3c92ad31%3A0x373fc51a5c85f122!2sFabric%20Sushi%20(Vicente%20L%C3%B3pez)!5e0!3m2!1sen!2sar!4v1664722053635!5m2!1sen!2sar"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <footer class="local__card__footer">
-            <p>
-              <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
-              23:00 hs
-            </p>
-            <p>
-              <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
-              y Mastercard
-            </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
-              +54 9 11 1111-111
-            </p>
-          </footer>
-        </article>
-      </div>
-      <!-- LOCALES CARD 4 -->
-      <div class="local" id="tarjeta4">
-        <article class="local__card">
-          <header class="local__card__header">
-            <h4>Sucursal Palermo</h4>
-          </header>
-          <div class="local__card__ubicacion">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22096.535261665864!2d-58.41658861273712!3d-34.587225323503205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5785bb393ad%3A0x48db9aeaa28fa4c5!2sFabric%20Sushi!5e0!3m2!1sen!2sar!4v1664722098521!5m2!1sen!2sar"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <footer class="local__card__footer">
-            <p>
-              <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
-              23:00 hs
-            </p>
-            <p>
-              <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
-              y Mastercard
-            </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
-              +54 9 11 1111-111
-            </p>
-          </footer>
-        </article>
-      </div>
-    </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <nav class="footer__redesSociales">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/" class="footer__facebook"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="footer__twitter"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" class="footer__instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <span class="footer__copyright"
-        >&copy; Copyright 2022 The Sushi Company</span
-      >
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <section class="locales__titulo">
+    <div id="locales__titulo__div">
+      <h1 id="locales__titulo__div__h1">
+        ¡Encontranos en nuestras sucursales!
+      </h1>
+    </div>
+  </section>
+  <!-- LOCALES CARD 1 -->
+  <section class="local__section">
+    <div class="local" id="tarjeta1">
+      <article class="local__card">
+        <header class="local__card__header">
+          <h4>Sucursal San Isidro</h4>
+        </header>
+        <div class="local__card__ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52645.7343590908!2d-58.57840800016044!3d-34.44304906845135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1885ac898b1%3A0x40633a8bef45748!2sFabric%20Sushi%20(San%20Isidro)!5e0!3m2!1sen!2sar!4v1664722013360!5m2!1sen!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer class="local__card__footer">
+          <p>
+            <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
+            23:00 hs
+          </p>
+          <p>
+            <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
+            y Mastercard
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
+            +54 9 11 1111-111
+          </p>
+        </footer>
+      </article>
+    </div>
+    <!-- LOCALES CARD 2 -->
+    <div class="local" id="tarjeta2">
+      <article class="local__card">
+        <header class="local__card__header">
+          <h4>Sucursal Tigre</h4>
+        </header>
+        <div class="local__card__ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d44269.542478652394!2d-58.57840798624609!3d-34.443175172355886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca506908450ef%3A0x5953c101d61c3838!2sSushi%20WOM!5e0!3m2!1sen!2sar!4v1664721948112!5m2!1sen!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer class="local__card__footer">
+          <p>
+            <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
+            23:00 hs
+          </p>
+          <p>
+            <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
+            y Mastercard
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
+            +54 9 11 1111-111
+          </p>
+        </footer>
+      </article>
+    </div>
+    <!-- LOCALES CARD 3 -->
+    <div class="local" id="tarjeta3">
+      <article class="local__card">
+        <header class="local__card__header">
+          <h4>Sucursal Vicente Lopez</h4>
+        </header>
+        <div class="local__card__ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.391454957704!2d-58.48009526871033!3d-34.51830899805109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14e3c92ad31%3A0x373fc51a5c85f122!2sFabric%20Sushi%20(Vicente%20L%C3%B3pez)!5e0!3m2!1sen!2sar!4v1664722053635!5m2!1sen!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer class="local__card__footer">
+          <p>
+            <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
+            23:00 hs
+          </p>
+          <p>
+            <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
+            y Mastercard
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
+            +54 9 11 1111-111
+          </p>
+        </footer>
+      </article>
+    </div>
+    <!-- LOCALES CARD 4 -->
+    <div class="local" id="tarjeta4">
+      <article class="local__card">
+        <header class="local__card__header">
+          <h4>Sucursal Palermo</h4>
+        </header>
+        <div class="local__card__ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22096.535261665864!2d-58.41658861273712!3d-34.587225323503205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5785bb393ad%3A0x48db9aeaa28fa4c5!2sFabric%20Sushi!5e0!3m2!1sen!2sar!4v1664722098521!5m2!1sen!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer class="local__card__footer">
+          <p>
+            <i class="fa-regular fa-clock"></i>Todos los días de 10:00 hs a
+            23:00 hs
+          </p>
+          <p>
+            <i class="fa-regular fa-credit-card"></i>Aceptamos efectivo, Visa
+            y Mastercard
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>Hace tu pedido por Whatsapp al
+            +54 9 11 1111-111
+          </p>
+        </footer>
+      </article>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <nav class="footer__redesSociales">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" class="footer__facebook"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" class="footer__twitter"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" class="footer__instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
+  </footer>
+</body>
 </html>

@@ -1,113 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link
-      rel="shortcut icon"
-      href="../assets/img/favicon.png"
-      type="image/x-icon"
-      alt="Icono Sushi"
-    />
-    <script
-      src="https://kit.fontawesome.com/4675eea30f.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Historia</title>
-  </head>
-
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-      <!-- LOGO CON IMAGEN Y TEXTO -->
-      <div class="header__logo">
-        <img
-          src="../assets/img/logo.png"
-          alt="logo"
-          class="header__logo__img"
-        />
-        <p class="header__nombre">The Sushi Company</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/historia.css">
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" alt="Icono Sushi" />
+  <script src="https://kit.fontawesome.com/4675eea30f.js" crossorigin="anonymous"></script>
+  <title>Historia</title>
+</head>
+<body>
+  <!-- MENU DE NAVEGACIÓN -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="nav__logo">
+          <img src="../assets/img/logo.png" alt="Logo con forma de Sushi">
+          <p>The Sushi Company</p>
+        </div>
+        <label for="menu" class="nav__label">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu" class="nav__input">
+        <div class="nav__menu">
+          <ul class="nav__menu_list">
+            <li><a href="../index.html" class="nav__menu__list__a">Home</a></li>
+            <li><a href="locales.html" class="nav__menu__list__a">Locales</a></li>
+            <li><a href="contacto.html" class="nav__menu__list__a">Contacto</a></li>
+            <li><a href="productos.html" class="nav__menu__list__a">Productos</a></li>
+            <li><a href="historia.html" class="nav__menu__list__a">Historia</a></li>
+          </ul>
+        </div>
       </div>
-      <!-- MENU DE NAVEGACIÓN -->
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__list__li">
-            <a href="../index.html">Home</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="locales.html">Locales</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="contacto.html">Contacto</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="productos.html">Productos</a>
-          </li>
-          <li class="header__nav__list__li">
-            <a href="historia.html">Historia</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- SECTION HISTORIA 1 -->
-    <section class="historia">
-      <div class="historia__titulo">
-        <h1 class="historia__titulo__h1">¿Quienes Somos?</h1>
-        <h4 class="historia__titulo__h4">
-          Desde nuestra cocina surge una opción innovadora en la alta cocina
-          japonesa, brindando la perfecta combinación entre el mejor sabor y la
-          originalidad de las piezas, conformando un menú completo y exquisito
-          para nuestros clientes. ¡Descubrinos!
-        </h4>
-      </div>
-      <div class="historia__img">
-        <img
-          src="../assets/img/historia__sushi1.jpeg"
-          alt="Chef preparando Sushi"
-        />
-      </div>
-    </section>
-    <!-- SECTION HISTORIA 2 -->
-    <section class="historia">
-      <div class="historia__titulo">
-        <h1 class="historia__titulo__h1">¡Perseguimos la excelencia!</h1>
-        <h4 class="historia__titulo__h4">
-          Una de las filosofías de The Sushi Company® es que no negociamos la
-          excelencia; utilizamos productos importadas o de industria nacional de
-          alta calidad.
-        </h4>
-      </div>
-      <div class="historia__img">
-        <img
-          src="../assets/img/historia__sushi2.jpeg"
-          alt="chef enrolando Sushi"
-        />
-      </div>
-    </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <nav class="footer__redesSociales">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/" class="footer__facebook"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="footer__twitter"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" class="footer__instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <!-- SECTION HISTORIA 1 -->
+  <section class="historia">
+    <div class="historia__titulo">
+      <h1 class="historia__titulo__h1">¿Quienes Somos?</h1>
+      <h4 class="historia__titulo__h4">
+        Desde nuestra cocina surge una opción innovadora en la alta cocina
+        japonesa, brindando la perfecta combinación entre el mejor sabor y la
+        originalidad de las piezas, conformando un menú completo y exquisito
+        para nuestros clientes. ¡Descubrinos!
+      </h4>
+    </div>
+    <div class="historia__img" id="historia__img1">
+      <img src="../assets/img/historia__sushi1.jpeg" alt="Chef preparando Sushi" />
+    </div>
+  </section>
+  <!-- SECTION HISTORIA 2 -->
+  <section class="historia">
+    <div class="historia__titulo">
+      <h1 class="historia__titulo__h1">¡Perseguimos la excelencia!</h1>
+      <h4 class="historia__titulo__h4">
+        Una de las filosofías de The Sushi Company® es que no negociamos la
+        excelencia; utilizamos productos importadas o de industria nacional de
+        alta calidad.
+      </h4>
+    </div>
+    <div class="historia__img" id="historia__img2">
+      <img src="../assets/img/historia__sushi2.jpeg" alt="chef enrolando Sushi" />
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <nav class="footer__redesSociales">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" class="footer__facebook"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" class="footer__twitter"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" class="footer__instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <span class="footer__copyright">&copy; Copyright 2022 The Sushi Company</span>
+  </footer>
+</body>
 </html>
