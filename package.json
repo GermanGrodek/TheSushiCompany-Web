@@ -1,0 +1,19 @@
+{
+  "name": "thesushicompany-web--bootstrap",
+  "version": "3.0.0",
+  "description": "Tercera Pre-Entrega para CoderHouse. Se utilizo SASS para dar estilo, y se implementó técnicas de SEO",
+  "main": "index.html",
+  "scripts": {
+    "test": "0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanGrodek/TheSushiCompany-Web.git"
+  },
+  "author": "Germán Grodek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanGrodek/TheSushiCompany-Web/issues"
+  },
+  "homepage": "https://github.com/GermanGrodek/TheSushiCompany-Web#readme"
+}
