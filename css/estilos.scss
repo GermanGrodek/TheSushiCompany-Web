@@ -20,17 +20,17 @@ $borde: 1px solid rgb(189, 189, 189);
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro&family=Roboto:ital,wght@0,400;1,300&display=swap");
 
 * {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  font-family: "Roboto", sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
 }
 
 body {
-  background-color: #fafafa;
-  position: relative;
-  padding-bottom: 50px;
-  min-height: 100vh;
+  background-color: #fafafa !important;
+  position: relative !important;
+  padding-bottom: 50px !important;
+  min-height: 100vh !important;
 }
 
 /* HEADER CSS */
@@ -48,18 +48,18 @@ body {
 }
 
 .nav__list__a::after {
-  content: "";
-  display: block;
-  background: $color1;
-  width: 80%;
-  margin-top: 3px;
-  height: 3px;
-  clip-path: var(--clippy);
-  transition: clip-path 0.3s;
+  content: "" !important;
+  display: block !important;
+  background: $color1 !important;
+  width: 80% !important;
+  margin-top: 3px !important;
+  height: 3px !important;
+  clip-path: var(--clippy) !important;
+  transition: clip-path 0.3s !important;
 }
 
 .nav__list__a:hover {
-  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
 }
 
 /* HEADER CSS FIN */
