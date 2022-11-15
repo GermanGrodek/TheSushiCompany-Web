@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro&family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro&family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;1,300&display=swap");
 * {
-  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -11,6 +10,7 @@ body {
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 /* HEADER CSS */
@@ -41,11 +41,35 @@ body {
 }
 
 .nav__list__a:hover {
-  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%) ;
 }
 
 /* HEADER CSS FIN */
 /* INDEX CSS */
+.jumbotron {
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.jumbotron .lead {
+  font-style: italic;
+}
+
+.divisor {
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Maven Pro", sans-serif;
+}
+
 .sectionDemo {
   display: flex;
   flex-wrap: wrap;
@@ -104,18 +128,15 @@ body {
 .local {
   border: 1px solid rgb(189, 189, 189);
   box-shadow: 0 0 12px;
-  border-radius: 1em;
+  border-radius: 0.5em;
+  background-color: #343a40;
+  color: white;
 }
 
 .local__card__header h3 {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   font-size: 22px;
-}
-
-.local__card__ubicacion {
-  border-top: 1px solid rgb(189, 189, 189);
-  border-bottom: 1px solid rgb(189, 189, 189);
 }
 
 iframe {
@@ -304,14 +325,14 @@ iframe {
 .card__prod__aside__pedir {
   text-decoration: none;
   background-color: initial;
-  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  background-image: linear-gradient(#8614f8 0, #6560eb 100%);
   border-radius: 5px;
   border-style: none;
   box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
   color: #fff;
   cursor: pointer;
   padding: 0 10px;
-  font-family: Inter, sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 16px;
   font-weight: 500;
   height: 60px;
@@ -322,6 +343,10 @@ iframe {
   margin-right: 10px;
   font-size: 15px;
   text-decoration: none;
+}
+
+.card__prod__aside__pedir:hover {
+  color: black;
 }
 
 /* PRODUCTOS CSS FIN */
@@ -337,8 +362,7 @@ iframe {
   border-radius: 1em;
 }
 
-.historia__titulo h2,
-.historia__titulo__h3 {
+.historia__titulo h2, .historia__titulo__h3 {
   font-family: "Maven Pro", sans-serif;
   margin: 20px;
   text-align: center;
@@ -451,6 +475,9 @@ iframe {
     font-size: 15px;
     padding: 0 10px 0 10px;
     margin: 0 0 10px 0;
+  }
+  .jumbotron .lead {
+    font-size: 15px !important;
   }
 }
 @media only screen and (max-width: 615px) {
