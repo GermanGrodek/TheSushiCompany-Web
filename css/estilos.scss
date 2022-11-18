@@ -17,23 +17,50 @@ $borde: 1px solid rgb(189, 189, 189);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88'%3E%3Cg fill='%2335243c' fill-opacity='1'%3E%3Cpath fill-rule='evenodd' d='M29.42 29.41c.36-.36.58-.85.58-1.4V0h-4v26H0v4h28c.55 0 1.05-.22 1.41-.58h.01zm0 29.18c.36.36.58.86.58 1.4V88h-4V62H0v-4h28c.56 0 1.05.22 1.41.58zm29.16 0c-.36.36-.58.85-.58 1.4V88h4V62h26v-4H60c-.55 0-1.05.22-1.41.58h-.01zM62 26V0h-4v28c0 .55.22 1.05.58 1.41.37.37.86.59 1.41.59H88v-4H62zM18 36c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H20a2 2 0 0 1-2-2zm0 16c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H20a2 2 0 0 1-2-2zm16-26a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zM34 58a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zM34 78a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-6zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-6zM34 4a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4zm-8 82a2 2 0 1 1 4 0v2h-4v-2zm0-68a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V18zM66 4a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0V4zm0 72a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0v-8zm-48 0a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0v-8zm0-72a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0V4zm24-4h4v2a2 2 0 1 1-4 0V0zm0 60a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V60zm14-24c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H58a2 2 0 0 1-2-2zm0 16c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H58a2 2 0 0 1-2-2zm-28-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 26a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM36 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-8-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 68a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16-34a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16-12a2 2 0 1 0 0 4 6 6 0 1 1 0 12 2 2 0 1 0 0 4 10 10 0 1 0 0-20zm-64 0a2 2 0 1 1 0 4 6 6 0 1 0 0 12 2 2 0 1 1 0 4 10 10 0 1 1 0-20zm56-12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 48a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-48 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-48a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm24 32a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-4a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm36-36a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM10 44c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm56 0c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm8 24c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zM3 68c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4H5a2 2 0 0 1-2-2zm0-48c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4H5a2 2 0 0 1-2-2zm71 0c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm6 66a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM8 86a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-68A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm36 36a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro&family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@mixin pattern1 {
+  background-color: #343a40;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23343A40' cx='50' cy='0' r='50'/%3E%3Cg fill='%233b3953' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23413763' cx='50' cy='100' r='50'/%3E%3Cg fill='%23473671' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%234c357d' cx='50' cy='200' r='50'/%3E%3Cg fill='%23513388' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23553292' cx='50' cy='300' r='50'/%3E%3Cg fill='%235a309c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%235e2fa4' cx='50' cy='400' r='50'/%3E%3Cg fill='%23622dad' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23662bb5' cx='50' cy='500' r='50'/%3E%3Cg fill='%23692abd' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%236d28c4' cx='50' cy='600' r='50'/%3E%3Cg fill='%237026cb' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%237424d2' cx='50' cy='700' r='50'/%3E%3Cg fill='%237722d9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%237a20e0' cx='50' cy='800' r='50'/%3E%3Cg fill='%237d1de6' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23801aec' cx='50' cy='900' r='50'/%3E%3Cg fill='%238317f2' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%238614F8' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+@mixin backimg {
+  background-position: center;
+  background-size: cover;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro&family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;1,300&display=swap");
 
 * {
-  margin: 0 ;
-  padding: 0 ;
-  list-style: none ;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 body {
-  background-color: #fafafa ;
-  position: relative ;
+  background-color: #fafafa;
+  position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
+  @include pattern1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /* HEADER CSS */
+
+.navbar-nav {
+  text-align: center;
+  font-size: 20px;
+}
 
 .header__nav__logo img {
   margin: 0 15px 0 15px;
@@ -50,8 +77,9 @@ body {
 .nav__list__a::after {
   content: "";
   display: block;
+  margin: 0 auto;
   background: $color1;
-  width: 80%;
+  width: 50%;
   margin-top: 3px;
   height: 3px;
   clip-path: var(--clippy);
@@ -59,7 +87,7 @@ body {
 }
 
 .nav__list__a:hover {
-  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%) ;
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 /* HEADER CSS FIN */
@@ -68,21 +96,21 @@ body {
 
 .jumbotron {
   background-image: url(../assets/img/jumbotron.jpg);
-  background-position: center;
-  background-size: cover;
+  @include backimg;
   color: white;
   height: 85vh;
   display: flex;
   align-items: flex-end;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+
   .lead {
     font-style: italic;
   }
 }
 
 .divisor {
-  height: 5vh;
+  height: 50px;
   color: white;
   display: flex;
   justify-content: center;
@@ -95,6 +123,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: 15px 0px 30px 0px;
+
   img {
     width: 100%;
     border-bottom: 2px solid rgb(189, 189, 189);
@@ -107,12 +136,13 @@ body {
   background-color: #ffff;
   max-width: 1000px;
   border: $borde;
-  box-shadow: 0 0 12px;
+  box-shadow: 0 0 5px white;
   border-radius: 1em;
   margin: 10px;
 }
 
 .titulo {
+  font-family: "Montserrat", sans-serif;
   color: rgb(0, 0, 0);
   text-align: center;
   font-weight: 700;
@@ -123,6 +153,7 @@ body {
 .sectionDemo__article__text__descripcion {
   text-align: center;
   margin: 10px auto;
+  padding: 0 50px;
   font-size: 21px;
   font-style: italic;
 }
@@ -131,10 +162,18 @@ body {
 
 /* LOCALES CSS */
 
+.locales__titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
 #locales__titulo__div__h1 {
-  font-family: "Maven Pro", sans-serif;
-  margin: 20px 0 20px 0;
   text-align: center;
+  margin: 0;
   font-weight: 600;
   font-size: 30px;
 }
@@ -149,7 +188,7 @@ body {
 
 .local {
   border: $borde;
-  box-shadow: 0 0 12px;
+  box-shadow: 0 0 5px white;
   border-radius: 0.5em;
   background-color: #343a40;
   color: white;
@@ -193,7 +232,8 @@ iframe {
 #registro__h1,
 #registro__h4 {
   margin-bottom: 10px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 
 #registro__h4 {
@@ -259,6 +299,7 @@ iframe {
 
 .contacto {
   @include contacto_estilo;
+
   p {
     padding: 8px;
   }
@@ -280,12 +321,13 @@ iframe {
 .productos__header {
   text-align: center;
   margin: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 
 .productos__header__titulo {
   font-size: 50px;
   margin-bottom: 10px;
-  font-family: "Maven Pro", sans-serif;
 }
 
 .productos__header__subtitulo {
@@ -355,7 +397,7 @@ iframe {
   color: #fff;
   cursor: pointer;
   padding: 0 10px;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 16px;
   font-weight: 500;
   height: 60px;
@@ -367,32 +409,52 @@ iframe {
     font-size: 15px;
     text-decoration: none;
   }
-  
 }
 
 .card__prod__aside__pedir:hover {
-color: black;
+  color: black;
 }
 
 /* PRODUCTOS CSS FIN */
 
 /* HISTORIA CSS */
+.body__historia {
+  background-color: #eeeeee;
+  background-image: none;
+}
 
-.historia {
-  margin-top: 20px;
-  img {
-    display: block;
-    margin: 20px auto;
-    width: 1200px;
-    border: 2px solid rgb(189, 189, 189);
-    border-radius: 1em;
+.article__historia {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  .article__historia__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+  }
+  #historia__section2 {
+    background-image: url(../assets/img/historia_img1.jpeg);
+    @include backimg;
+  }
+  #historia__section3 {
+    background-image: url(../assets/img/historia_img2.jpeg);
+    @include backimg;
   }
 }
 
-.historia__titulo h2, .historia__titulo__h3 {
+.article__historia__section__titulo {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.article__historia__section__subtitulo {
+  margin-top: 20px;
+  font-size: 25px;
   font-family: "Maven Pro", sans-serif;
-  margin: 20px;
-  text-align: center;
+  font-style: italic;
 }
 
 /* HISTORIA CSS FIN */
@@ -428,6 +490,7 @@ color: black;
   li {
     display: inline-block;
   }
+
   a i {
     letter-spacing: 15px;
     font-size: 25px;
@@ -435,6 +498,7 @@ color: black;
     font-weight: 100;
     margin-left: 5px;
   }
+
   a i:hover {
     color: #6560eb;
     text-shadow: 0 0 1px;
@@ -454,16 +518,13 @@ color: black;
   .local__section {
     grid-template-columns: 600px;
   }
-
-  .historia__img img {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 1000px) {
   .productos__header__subtitulo {
     font-size: 18px;
   }
+
   .productos__article {
     grid-template-columns: 550px;
   }
@@ -472,6 +533,7 @@ color: black;
     flex-direction: column;
     width: 550px;
     padding: 10px;
+
     img {
       padding: 15px 0 2px 0;
     }
@@ -508,6 +570,18 @@ color: black;
   .local__card__footer p {
     font-size: 14px;
   }
+  .article__historia {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    height: auto;
+    #historia__section1,
+    #historia__section2,
+    #historia__section3,
+    #historia__section4 {
+      height: 350px;
+    }
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -521,7 +595,7 @@ color: black;
     margin: 0 0 10px 0;
   }
 
-  .jumbotron .lead{
+  .jumbotron .lead {
     font-size: 15px !important;
   }
 }
@@ -558,6 +632,7 @@ color: black;
   .card__prod {
     width: 300px;
     padding: 0;
+
     img {
       width: 250px;
     }
@@ -574,10 +649,6 @@ color: black;
   .card__prod__aside__pedir {
     font-size: small;
     width: 256px;
-  }
-
-  #historia__img2 {
-    margin-bottom: 38px;
   }
 }
 
@@ -619,6 +690,18 @@ color: black;
 
   .footer__redesSociales ul {
     padding: 0;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .article__historia {
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-height: 550px) {
+  .article__historia {
+    height: auto;
   }
 }
 
